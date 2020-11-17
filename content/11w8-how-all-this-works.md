@@ -73,4 +73,20 @@ no, thats step 2
 
 		cp content technomad-stack/11ty/
 
+i need to write a script that copies ^
+
+if i run it, does it work?
+
+#### it works
+
+		``` content/content.11tydata.js
+				module.exports = {
+					layout: '../_includes/_base.njk'
+		```
+
+		i should from njk to js right?
+
+#### moving from njk to js
+
+
 
