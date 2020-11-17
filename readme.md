@@ -55,8 +55,22 @@ template directory is nice, but it really complicates the folder structure
 this link worked out real good 
 <https://git-scm.com/book/en/v2/Git-Tools-Submodules#_starting_submodules>
 
-		`git submodule add git@github.com:wommy/technomad-stack.git`
+		git submodule add git@github.com:wommy/technomad-stack.git
 
 this is working lovingly,  
 gonna push quick
+
+##### whats next
+
+i think i need to set up 11ty to work with content
+
+right now im just gonna copy it  
+
+		big upgrade >> link that
+
+wait do i just make a new package.json that copies it in and runs the submodule  
+no, thats step 2  
+
+		cp content technomad-stack/11ty/
+
 
