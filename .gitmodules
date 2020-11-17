@@ -1,0 +1,3 @@
+[submodule "technomad-stack"]
+	path = technomad-stack
+	url = git@github.com:wommy/technomad-stack.git

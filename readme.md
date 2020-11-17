@@ -36,8 +36,8 @@ add this file in there
 		probably gonna add the whole rd, search for some yaml
 		just cp'd it for now, upgrade to ln -s?
 
-do i just submodule tms in now?  
-	that might work
+		do i just submodule tms in now?
+			that might work
 
 went up on github, created a new repo: wommy/technomad-blog
 
@@ -46,4 +46,17 @@ gonna push
 
 ##### tidied, gonna repush
 
+ok it looks nice now,
+
+next up is to require in tms somehow  
+im aiming to use a submodule
+template directory is nice, but it really complicates the folder structure
+
+this link worked out real good 
+<https://git-scm.com/book/en/v2/Git-Tools-Submodules#_starting_submodules>
+
+		`git submodule add git@github.com:wommy/technomad-stack.git`
+
+this is working lovingly,  
+gonna push quick
 
